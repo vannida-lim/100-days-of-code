@@ -1,30 +1,20 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+## Day 1: June 1, 2020
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Continuing building my Node and Express Task Manager app.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I've been working on my app for a while but only just pushed my code up to github. 
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Repo](https://github.com/vannida-lim/Tasker)
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+---
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+## Day 2: June 2, 2020
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Today's Progress**: Continuing building my Node and Express Task Manager app. I implemented authentication on these tasks endpoints: GET /tasks/:id, PATCH /tasks/:id, DELETE /tasks/:id. I establish a User-Task model relationship and implemented deletion of all user's tasks via userSchema. I updated the userSchema with a timestamp property as a second arg. I setup query endpoints for fetching task data from users like GET /tasks?completed=true, GET /tasks?completed=false, GET /tasks?limit=10&skip=0, GET /tasks?sortBy=createdAt:desc, GET /tasks?sortBy=createdAt:asc. I added npm multer config to handle image and file uploads with validations. I added an 'avatars' property on userSchema to store user avatars. I implemented multer middleware and auth middleware to POST and DELETE /user/me/avatar. I created a route to fetch avatar images GET /users/:id/avatar. I also worked on implementing Singly Linked Lists data structures. 
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Thoughts:** I finally learned about how to wire up relationship association between models via Express and Mongoose. It's not as semantically friendly like with Rails (belongs_to, has_many, has_one etc.) but I think it's quite straight forward. My model relationships looks like this: `User--<Task` where users have many tasks. On my Task model I had to create a property to share the user id and set up the endpoint for authorrized users to that task. There are other built-in Express methods to use such as `populate()` and `execPopulate()` to establish the reference.  
 
+**Link to work:** [Repo](https://github.com/vannida-lim/Tasker)
 
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
