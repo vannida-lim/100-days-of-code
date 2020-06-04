@@ -18,3 +18,22 @@
 
 **Link to work:** [Repo](https://github.com/vannida-lim/Tasker)
 
+---
+
+## Day 3: June 3, 2020
+
+**Today's Progress**: Implemented `npm sharp` on Tasker's POST /users/me/avatar to allow for server-side resizing and reformatting of avatar images. Implemented `npm @sendgrid/mail` to add email delivery upon user signup and cancellation. Added emails directory with functions and exported functions to creating and deleting user endpoints. Implemented .env variables for security. Used `npm env-cmd --save-dev` to use locally. Added API keys, MongoDB url and JWT secret to .env file. In package.json, updated dev scripts to run .env files before starting up server. Worked with a friend to  `Reverse a Linked List` on Leetcode. 
+
+**Thoughts:** Making good progress with my app. Will deploy the backend API soon. Can't wait to build a frontend for it with React. Reversing a Linked List was difficult to implement. At first I was only getting the last node as the head bc I didn't take an extra step of reassigning the newHead to prev. I solved it iteratively with a while loop. It's difficult for me to think of a recursive solution. The best time complexity I could manage was O(n) linear time due to the while loop. 
+
+**Link to work:** [Repo](https://github.com/vannida-lim/Tasker), [Linked List Reference](https://github.com/vannida-lim/javascript-algorithms/tree/master/src/data-structures/linked-list)
+
+## Day 4: June 4, 2020
+
+**Today's Progress**: Continued to work with Linked Lists. Stepped and drew out each iteration to see the reassignments of prev, head, and newHead so I could understand it better. I have a last round interview later today. 
+
+**Thoughts:** I've been working on my app for a while but only just pushed my code up to github. 
+
+**Link to work:** [Repo](https://github.com/vannida-lim/Tasker)
+
+---
